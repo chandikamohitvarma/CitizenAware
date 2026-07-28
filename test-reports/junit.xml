@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="350" failures="0" errors="0" time="24.237">
+  <testsuite name="DEPLOYMENT — Build Integrity" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:33" time="17.298" tests="50">
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-001: package.json exists and has a name field" time="0.085">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-002: package.json has a version field" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-003: package.json has a main entry point" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-004: expo dependency is present" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-005: expo-router dependency is present" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-006: supabase-js dependency is present" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-007: react version is 18 or 19" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-008: typescript is a devDependency" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-009: build:web script is defined" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Build Integrity" name="TC-D-010: typecheck script is defined" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-011: app.json exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-012: tsconfig.json exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-013: babel.config.js exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-014: .gitignore exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-015: tailwind.config.js exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-016: .env file is not committed (gitignored)" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-017: app.json has a valid slug" time="0.002">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-018: app.json has a platforms field or defaults" time="0.073">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-019: nativewind-env.d.ts exists for type declarations" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Configuration Files" name="TC-D-020: nativewind-env.d.ts exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-021: app/_layout.tsx exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-022: app/(tabs)/_layout.tsx exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-023: app/index.tsx exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-024: app/(tabs)/index.tsx exists" time="0.007">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-025: app/+not-found.tsx exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-026: auth/login route exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-027: auth/register route exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-028: scheme/[id] dynamic route exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-029: apply/[id] dynamic folder exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Routes &amp; Navigation" name="TC-D-030: support routes exist" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Stores &amp; State" name="TC-D-031: authStore exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Stores &amp; State" name="TC-D-032: notificationStore exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Stores &amp; State" name="TC-D-033: schemeStore exists" time="0.002">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Stores &amp; State" name="TC-D-034: settingsStore exists" time="0.01">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Stores &amp; State" name="TC-D-035: supabase client is configured" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-036: AppButton component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-037: AppInput component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-038: SchemeCard component exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-039: Header component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-040: Loading component exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-041: EmptyState component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-042: NotificationCard component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-043: Logo component exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-044: CategoryCard component exists" time="0.005">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Components" name="TC-D-045: components/ui/index.ts barrel exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Database Migrations" name="TC-D-046: migrations directory exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Database Migrations" name="TC-D-047: initial schemes migration exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Database Migrations" name="TC-D-048: seed migration exists" time="0.001">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Database Migrations" name="TC-D-049: application fields migration exists" time="0">
+    </testcase>
+    <testcase classname="DEPLOYMENT — Database Migrations" name="TC-D-050: types/index.ts is present" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="SCHEME DATA — Structure Integrity" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:33" time="17.778" tests="50">
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-001: schemes array is not empty" time="0.012">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-002: every scheme has an id" time="0.003">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-003: every scheme has a name" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-004: every scheme has a non-empty description" time="0.002">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-005: every scheme has a ministry" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-006: every scheme has a benefits field" time="0.002">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-007: every scheme has at least one eligibility criterion" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-008: every scheme has at least one required document" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-009: every scheme has a valid deadline date string" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Structure Integrity" name="TC-S-010: every scheme status is active|inactive|upcoming" time="0.091">
+    </testcase>
+    <testcase classname="SCHEME DATA — Counts &amp; Flags" name="TC-S-011: applied count is a non-negative number" time="0.002">
+    </testcase>
+    <testcase classname="SCHEME DATA — Counts &amp; Flags" name="TC-S-012: featured is a boolean" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Counts &amp; Flags" name="TC-S-013: at least one scheme is featured" time="0">
+    </testcase>
+    <testcase classname="SCHEME DATA — Counts &amp; Flags" name="TC-S-014: featured schemes count is reasonable (1-20)" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME DATA — Counts &amp; Flags" name="TC-S-015: scheme ids are unique" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Category" name="TC-S-016: filter returns Agriculture schemes only" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Category" name="TC-S-017: filter returns empty array for unknown category" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Category" name="TC-S-018: filter is case-sensitive" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Category" name="TC-S-019: filter by Education returns at least one scheme" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Category" name="TC-S-020: filter by Finance returns at least one scheme" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Status" name="TC-S-021: active schemes are filterable" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Status" name="TC-S-022: no scheme has undefined status" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Status" name="TC-S-023: upcoming schemes have future deadlines" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Status" name="TC-S-024: inactive schemes exist or list is empty (no crash)" time="0">
+    </testcase>
+    <testcase classname="SCHEME FILTER — By Status" name="TC-S-025: total scheme count is at least 10" time="0">
+    </testcase>
+    <testcase classname="SCHEME SEARCH — Keyword" name="TC-S-026: search by &quot;PM&quot; returns relevant schemes" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME SEARCH — Keyword" name="TC-S-027: search by &quot;Kisan&quot; returns agriculture schemes" time="0">
+    </testcase>
+    <testcase classname="SCHEME SEARCH — Keyword" name="TC-S-028: search is case-insensitive" time="0">
+    </testcase>
+    <testcase classname="SCHEME SEARCH — Keyword" name="TC-S-029: search by empty string returns all schemes" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME SEARCH — Keyword" name="TC-S-030: search for nonexistent term returns empty array" time="0">
+    </testcase>
+    <testcase classname="SCHEME SORT — By Applied Count" name="TC-S-031: sortByPopularity returns descending order" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME SORT — By Applied Count" name="TC-S-032: top scheme has highest applied count" time="0">
+    </testcase>
+    <testcase classname="SCHEME SORT — By Applied Count" name="TC-S-033: sort does not mutate original array" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME SORT — By Applied Count" name="TC-S-034: sortByDeadline returns chronological order" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME SORT — By Applied Count" name="TC-S-035: featured scheme list is non-empty" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-036: categories array is not empty" time="0.001">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-037: every category has unique id" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-038: every category has a name" time="0.001">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-039: every category has a color hex code" time="0.001">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-040: every category has a non-negative count" time="0.001">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-041: exactly 8 categories are defined" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-042: Education category exists" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-043: Healthcare category exists" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-044: Agriculture category exists" time="0">
+    </testcase>
+    <testcase classname="CATEGORY DATA — Structure" name="TC-S-045: Finance category exists" time="0">
+    </testcase>
+    <testcase classname="SCHEME ELIGIBILITY — Logic" name="TC-S-046: checkEligibility returns true for matching profile" time="0">
+    </testcase>
+    <testcase classname="SCHEME ELIGIBILITY — Logic" name="TC-S-047: checkEligibility returns false for underage user" time="0.001">
+    </testcase>
+    <testcase classname="SCHEME ELIGIBILITY — Logic" name="TC-S-048: checkEligibility returns false for non-citizen" time="0">
+    </testcase>
+    <testcase classname="SCHEME ELIGIBILITY — Logic" name="TC-S-049: getSchemeById returns correct scheme" time="0">
+    </testcase>
+    <testcase classname="SCHEME ELIGIBILITY — Logic" name="TC-S-050: getSchemeById returns undefined for unknown id" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="AUTH STORE — Login" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:50" time="0.681" tests="50">
+    <testcase classname="AUTH STORE — Login" name="TC-U-001: login returns true with valid email and password" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-002: login returns false with empty password" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-003: login returns false with password shorter than 6 chars" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-004: login sets isAuthenticated to true on success" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-005: login sets error message on failure" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-006: login sets isLoading to false after completion" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-007: login accepts email with plus sign" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-008: login accepts email with subdomain" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-009: login trims whitespace in email before validation" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Login" name="TC-U-010: login rejects empty email" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-011: register returns true with valid inputs" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-012: register creates user with provided name" time="0.002">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-013: register creates user with provided email" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-014: register assigns a unique id" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-015: register sets createdAt timestamp" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-016: register rejects name shorter than 2 chars" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-017: register accepts name with spaces" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-018: register rejects invalid phone (less than 10 digits)" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-019: register accepts valid 10-digit phone" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Register" name="TC-U-020: register rejects phone with letters" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — OTP" name="TC-U-021: verifyOTP returns true for 6-digit code" time="0.08">
+    </testcase>
+    <testcase classname="AUTH STORE — OTP" name="TC-U-022: verifyOTP returns false for 4-digit code" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — OTP" name="TC-U-023: verifyOTP returns true for hardcoded 123456" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — OTP" name="TC-U-024: verifyOTP rejects empty string" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — OTP" name="TC-U-025: verifyOTP rejects alphanumeric codes" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Profile Update" name="TC-U-026: updateProfile changes user name" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Profile Update" name="TC-U-027: updateProfile merges partial updates" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Profile Update" name="TC-U-028: updateProfile changes city in address" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Profile Update" name="TC-U-029: updateProfile does not reset other fields" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Profile Update" name="TC-U-030: logout sets isAuthenticated to false" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Language &amp; Onboarding" name="TC-U-031: setLanguage stores selected language code" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Language &amp; Onboarding" name="TC-U-032: setLanguage accepts all 8 supported languages" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Language &amp; Onboarding" name="TC-U-033: setOnboardingCompleted sets flag true" time="0">
+    </testcase>
+    <testcase classname="AUTH STORE — Language &amp; Onboarding" name="TC-U-034: setOnboardingCompleted can be reset to false" time="0.001">
+    </testcase>
+    <testcase classname="AUTH STORE — Language &amp; Onboarding" name="TC-U-035: clearError resets error to null" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Email Validation" name="TC-U-036: valid email passes regex" time="0">
+    </testcase>
+    <testcase classname="AUTH — Email Validation" name="TC-U-037: email without @ fails" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Email Validation" name="TC-U-038: email without domain fails" time="0">
+    </testcase>
+    <testcase classname="AUTH — Email Validation" name="TC-U-039: email with consecutive dots fails" time="0">
+    </testcase>
+    <testcase classname="AUTH — Email Validation" name="TC-U-040: email with valid TLD passes" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-041: password with uppercase passes strength check" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-042: password without uppercase fails" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-043: password with number passes digit check" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-044: password without number fails digit check" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-045: password with special char passes" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-046: password shorter than 8 chars is weak" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-047: password of 8+ chars with all criteria is strong" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-048: spaces are stripped from password before strength check" time="0.001">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-049: password confirmation match returns true when equal" time="0">
+    </testcase>
+    <testcase classname="AUTH — Password Strength" name="TC-U-050: password confirmation match returns false when different" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="WEB — Splash &amp; Onboarding" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:51" time="0.413" tests="50">
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-001: splash screen renders app logo" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-002: onboarding shows slide 1 by default" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-003: onboarding next button advances to slide 2" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-004: onboarding next button advances to slide 3" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-005: onboarding skip button goes to auth" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-006: onboarding finish button goes to auth" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-007: onboarding progress dots match slide count" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-008: onboarding image loads without error" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-009: onboarding title is visible and non-empty" time="0">
+    </testcase>
+    <testcase classname="WEB — Splash &amp; Onboarding" name="TC-W-010: onboarding description is visible and non-empty" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-011: login page renders email input" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-012: login page renders password input" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-013: login page renders login button" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-014: login form shows error on blank submit" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-015: login link navigates to register page" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-016: register page renders all required fields" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-017: register shows password strength indicator" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-018: forgot password link opens forgot page" time="0">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-019: OTP page renders 6 input boxes" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Auth Pages" name="TC-W-020: set-password page enforces strength rules" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-021: home tab renders greeting message" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-022: home tab shows featured schemes" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-023: home tab shows scheme categories" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-024: home search bar is visible" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-025: tapping a category navigates to category page" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-026: tapping a scheme navigates to scheme detail" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-027: home tab shows notification bell icon" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-028: home tab renders AI assistant button" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-029: home banner is visible and rendered" time="0">
+    </testcase>
+    <testcase classname="WEB — Home / Dashboard" name="TC-W-030: home shows recently viewed schemes if any" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-031: all schemes page lists schemes" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-032: scheme search filters results in real time" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-033: scheme detail shows eligibility section" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-034: scheme detail shows required documents" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-035: scheme detail shows apply button" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-036: scheme detail shows save/bookmark button" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-037: saved schemes page shows bookmarked items" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-038: scheme compare page renders side-by-side table" time="0">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-039: eligibility checker renders question form" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Scheme Pages" name="TC-W-040: AI recommendations page renders scheme cards" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-041: apply step 1 (personal info) renders correctly" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-042: apply step 2 (address) renders correctly" time="0.001">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-043: apply step 3 (bank details) renders correctly" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-044: apply step 4 (documents) renders correctly" time="0.012">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-045: apply step 5 (review) shows all filled data" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-046: application success page shown after submit" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-047: application tracking page shows status" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-048: notifications tab shows list of notifications" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-049: profile page shows user details" time="0">
+    </testcase>
+    <testcase classname="WEB — Application Flow" name="TC-W-050: settings page shows theme and language options" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="VALIDATION — Aadhaar Number" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:50" time="0.595" tests="50">
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-001: valid 12-digit Aadhaar passes" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-002: Aadhaar with 11 digits fails" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-003: Aadhaar with 13 digits fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-004: Aadhaar with letters fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-005: Aadhaar starting with 0 fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-006: Aadhaar starting with 1 passes" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-007: Aadhaar with spaces fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-008: Aadhaar with hyphens fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-009: empty Aadhaar fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Aadhaar Number" name="TC-V-010: Aadhaar with special chars fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — PAN Card" name="TC-V-011: valid PAN passes (ABCDE1234F)" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — PAN Card" name="TC-V-012: lowercase PAN fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — PAN Card" name="TC-V-013: PAN with 9 chars fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — PAN Card" name="TC-V-014: PAN with special chars fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — PAN Card" name="TC-V-015: empty PAN fails" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — IFSC Code" name="TC-V-016: valid IFSC passes (SBIN0001234)" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — IFSC Code" name="TC-V-017: IFSC shorter than 11 chars fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — IFSC Code" name="TC-V-018: IFSC longer than 11 chars fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — IFSC Code" name="TC-V-019: IFSC first 4 chars must be letters" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — IFSC Code" name="TC-V-020: IFSC 5th char must be 0" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Pincode" name="TC-V-021: valid 6-digit pincode passes" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Pincode" name="TC-V-022: pincode with 5 digits fails" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Pincode" name="TC-V-023: pincode with 7 digits fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Pincode" name="TC-V-024: pincode starting with 0 fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Pincode" name="TC-V-025: pincode with letters fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Bank Account Number" name="TC-V-026: account number of 9 digits passes" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Bank Account Number" name="TC-V-027: account number of 18 digits passes" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Bank Account Number" name="TC-V-028: account number shorter than 9 digits fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Bank Account Number" name="TC-V-029: account number longer than 18 digits fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Bank Account Number" name="TC-V-030: account number with letters fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-031: annual income must be positive" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-032: zero income fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-033: negative income fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-034: income above 1 crore is valid" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-035: age must be between 1 and 120" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-036: age 0 fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-037: age 121 fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-038: age 18 is valid" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-039: age 60 is valid" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Income &amp; Age" name="TC-V-040: decimal age fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-041: required field rejects empty string" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-042: required field accepts non-empty string" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-043: required field rejects whitespace-only" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-044: full name requires at least 2 words" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-045: single word name fails" time="0.001">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-046: date of birth in future fails" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-047: DOB in the past passes" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-048: state selection required (non-empty)" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-049: gender must be male|female|other" time="0">
+    </testcase>
+    <testcase classname="VALIDATION — Application Form Fields" name="TC-V-050: document name cannot exceed 100 characters" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ANDROID — App Launch &amp; Splash" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:51" time="0.303" tests="50">
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-001: app launches without crash" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-002: splash screen displays within 3 seconds" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-003: app logo is visible on splash" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-004: splash transitions to onboarding or home" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-005: status bar is rendered correctly" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-006: no ANR (Application Not Responding) on launch" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-007: back button on splash does not crash app" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-008: app renders in portrait mode" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-009: app handles rotation to landscape gracefully" time="0">
+    </testcase>
+    <testcase classname="ANDROID — App Launch &amp; Splash" name="TC-A-010: deep link to scheme detail opens correct page" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-011: bottom tab bar renders 5 tabs" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-012: tapping Home tab navigates to home screen" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-013: tapping Schemes tab navigates to schemes screen" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-014: tapping AI tab navigates to AI screen" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-015: tapping Notifications tab renders list" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-016: tapping Profile tab shows user profile" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-017: back gesture from scheme detail returns to list" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-018: hardware back button closes modal if open" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-019: swipe left advances onboarding slide" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Navigation" name="TC-A-020: swipe right goes back on onboarding" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-021: scheme card tap registers correctly" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-022: bookmark button tap toggles saved state" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-023: search bar accepts text input via keyboard" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-024: keyboard dismisses on outside tap" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-025: scroll down on home loads more schemes" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-026: pull-to-refresh triggers data reload" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-027: long press on scheme shows context menu" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-028: pinch-to-zoom does not break document preview" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-029: double tap on image opens full screen" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Touch &amp; Gestures" name="TC-A-030: filter chips are horizontally scrollable" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-031: phone number input accepts only digits" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-032: email input shows email keyboard" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-033: password field hides characters by default" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-034: eye icon toggles password visibility" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-035: date picker renders when DOB field is tapped" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-036: OTP auto-advance moves to next input on digit entry" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-037: submit button disabled while form is loading" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-038: inline error message shown for invalid Aadhaar" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-039: form preserves data on screen rotation" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Forms &amp; Input" name="TC-A-040: document upload picker opens on button tap" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-041: home screen renders within 2 seconds on cold start" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-042: scheme list scrolls at 60fps (no jank)" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-043: images load asynchronously (no UI block)" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-044: app memory usage stays below 200MB" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-045: font size respects Android accessibility settings" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-046: color contrast ratio meets WCAG AA standard" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-047: touch targets are at least 48x48dp" time="0.001">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-048: app works on Android 10 (API 29)" time="0.069">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-049: app works on Android 14 (API 34)" time="0">
+    </testcase>
+    <testcase classname="ANDROID — Performance &amp; Accessibility" name="TC-A-050: offline mode shows graceful no-network message" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="LOAD — Scheme Data Processing" errors="0" failures="0" skipped="0" timestamp="2026-07-28T05:55:33" time="21.667" tests="50">
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-001: filtering 10,000 schemes completes under 50ms" time="0.019">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-002: searching 10,000 schemes completes under 100ms" time="0.012">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-003: sorting 10,000 schemes by popularity completes under 100ms" time="0.011">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-004: deduplicating 10,000 scheme ids under 50ms" time="0.01">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-005: mapping 10,000 schemes to display format under 50ms" time="0.012">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-006: grouping 10,000 schemes by category under 80ms" time="0.009">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-007: computing sum of applied counts for 10k schemes under 20ms" time="0.015">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-008: finding max applied from 10k schemes under 20ms" time="0.009">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-009: JSON serialization of 1,000 schemes under 30ms" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Scheme Data Processing" name="TC-L-010: JSON parse of 1,000 schemes under 30ms" time="0.002">
+    </testcase>
+    <testcase classname="LOAD — Concurrent Simulated API Calls" name="TC-L-011: 50 concurrent fetch simulations complete without error" time="0.011">
+    </testcase>
+    <testcase classname="LOAD — Concurrent Simulated API Calls" name="TC-L-012: 100 concurrent fetch simulations complete without error" time="0.006">
+    </testcase>
+    <testcase classname="LOAD — Concurrent Simulated API Calls" name="TC-L-013: 200 concurrent fetch simulations complete within 3 seconds" time="0.002">
+    </testcase>
+    <testcase classname="LOAD — Concurrent Simulated API Calls" name="TC-L-014: 50 sequential API calls total under 1 second" time="0.055">
+    </testcase>
+    <testcase classname="LOAD — Concurrent Simulated API Calls" name="TC-L-015: error rate under heavy load is zero for healthy endpoint" time="0.002">
+    </testcase>
+    <testcase classname="LOAD — Memory &amp; Cleanup" name="TC-L-016: creating 10,000 scheme objects does not throw" time="0.007">
+    </testcase>
+    <testcase classname="LOAD — Memory &amp; Cleanup" name="TC-L-017: 1,000 notification objects can be created" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Memory &amp; Cleanup" name="TC-L-018: filtering 1,000 notifications under 10ms" time="0">
+    </testcase>
+    <testcase classname="LOAD — Memory &amp; Cleanup" name="TC-L-019: marking 1,000 notifications as read under 20ms" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Memory &amp; Cleanup" name="TC-L-020: pagination of 10,000 items produces correct page sizes" time="0.008">
+    </testcase>
+    <testcase classname="LOAD — Pagination &amp; Infinite Scroll" name="TC-L-021: page 1 of 10k items returns items 1-20" time="0.01">
+    </testcase>
+    <testcase classname="LOAD — Pagination &amp; Infinite Scroll" name="TC-L-022: page 2 returns items 21-40" time="0.008">
+    </testcase>
+    <testcase classname="LOAD — Pagination &amp; Infinite Scroll" name="TC-L-023: last page returns remaining items only" time="0">
+    </testcase>
+    <testcase classname="LOAD — Pagination &amp; Infinite Scroll" name="TC-L-024: page 0 returns empty array" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Pagination &amp; Infinite Scroll" name="TC-L-025: page beyond last returns empty array" time="0">
+    </testcase>
+    <testcase classname="LOAD — String &amp; Search Performance" name="TC-L-026: Aadhaar validation for 100,000 inputs under 200ms" time="0.032">
+    </testcase>
+    <testcase classname="LOAD — String &amp; Search Performance" name="TC-L-027: email validation for 50,000 inputs under 200ms" time="0.053">
+    </testcase>
+    <testcase classname="LOAD — String &amp; Search Performance" name="TC-L-028: string search across 10,000 scheme names under 50ms" time="0.004">
+    </testcase>
+    <testcase classname="LOAD — String &amp; Search Performance" name="TC-L-029: date comparison for 10,000 deadlines under 30ms" time="0.007">
+    </testcase>
+    <testcase classname="LOAD — String &amp; Search Performance" name="TC-L-030: concatenating 10,000 strings under 50ms" time="0.002">
+    </testcase>
+    <testcase classname="LOAD — State Store Stress" name="TC-L-031: 1,000 consecutive state updates complete under 100ms" time="0">
+    </testcase>
+    <testcase classname="LOAD — State Store Stress" name="TC-L-032: zustand-like deep merge for 500 updates under 100ms" time="0">
+    </testcase>
+    <testcase classname="LOAD — State Store Stress" name="TC-L-033: 10,000 Map lookups complete under 10ms" time="0.012">
+    </testcase>
+    <testcase classname="LOAD — State Store Stress" name="TC-L-034: 10,000 Set membership checks under 10ms" time="0.012">
+    </testcase>
+    <testcase classname="LOAD — State Store Stress" name="TC-L-035: 1,000 array push/pop operations under 5ms" time="0">
+    </testcase>
+    <testcase classname="LOAD — Async &amp; Concurrency Resilience" name="TC-L-036: Promise.all with 500 micro-tasks resolves under 500ms" time="0">
+    </testcase>
+    <testcase classname="LOAD — Async &amp; Concurrency Resilience" name="TC-L-037: sequential 100 async validations under 300ms" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Async &amp; Concurrency Resilience" name="TC-L-038: 50 race conditions resolved correctly via Promise.race" time="0.005">
+    </testcase>
+    <testcase classname="LOAD — Async &amp; Concurrency Resilience" name="TC-L-039: timeout simulation resolves at correct threshold" time="0.011">
+    </testcase>
+    <testcase classname="LOAD — Async &amp; Concurrency Resilience" name="TC-L-040: timeout simulation rejects when threshold exceeded" time="0.117">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-041: test suite name is defined" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-042: test run date is a valid ISO date" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-043: environment is test" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-044: test runner is jest" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-045: total test count for suite is 50" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-046: app version is defined in package.json" time="0.003">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-047: Node.js version is 18 or above" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-048: platform identifier is accessible" time="0.001">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-049: memory heap limit is accessible" time="0">
+    </testcase>
+    <testcase classname="LOAD — Report Metadata" name="TC-L-050: all 300 test cases are distributed evenly (50 per suite)" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
